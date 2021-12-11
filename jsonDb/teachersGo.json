@@ -1,0 +1,70 @@
+{
+ "teachers": [
+  {
+   "name": "Richard Hendricks",
+   "age": "23",
+   "bio": "Some cv information",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "name": "Bertram Gilfoyle",
+   "age": "26",
+   "bio": "Programming experience is over 5 years",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": true
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": true
+    }
+   ]
+  },
+  {
+   "name": "Dinesh Chugtai",
+   "age": "25",
+   "bio": "Just a cool guy",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  }
+ ]
+}

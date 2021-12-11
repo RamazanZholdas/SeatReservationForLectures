@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Python Page</title>
+        <style>
+            .button {
+              background-color: #4CAF50;
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            </style>
+    </head>
+    <body>
+        <form method="POST">
+            <select name="smth" id="smth">
+                {{ range . }}
+                 <option>{{ .Name }}</option>
+                 {{ else }}
+                 <option>Nothing to see</option>
+                 {{ end }}
+              </select>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <div class="container">
+            <h1>All teachers:</h1>
+            {{ range . }}
+                <h2>{{ .Name }},
+                    {{ .Age }}</h2>
+                <p>{{ .Bio }}</p>
+            {{ end }}
+        </div>
+        <a href="/mySqlPage/step2/" class="button">Continue</a>
+    </body>
+</html>

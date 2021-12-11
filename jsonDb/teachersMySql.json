@@ -1,0 +1,70 @@
+{
+ "teachers": [
+  {
+   "name": "John Dorian",
+   "age": "24",
+   "bio": "Some cv information",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "name": "Christopher Duncan Turk",
+   "age": "26",
+   "bio": "Programming experience is over 5 years",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "name": "Percival Ulysses Willis Cox",
+   "age": "35",
+   "bio": "Just a cool guy",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  }
+ ]
+}

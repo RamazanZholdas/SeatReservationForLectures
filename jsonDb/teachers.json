@@ -1,0 +1,70 @@
+{
+ "teachers": [
+  {
+   "name": "Nanami",
+   "age": "30",
+   "bio": "Just a nice guy",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": true
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "name": "Gojo",
+   "age": "26",
+   "bio": "Just a strong guy",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  },
+  {
+   "name": "Aoi Todou",
+   "age": "22",
+   "bio": "Just a cool guy",
+   "places": [
+    {
+     "id": 1,
+     "level": "Vip",
+     "ordered": false
+    },
+    {
+     "id": 2,
+     "level": "Normal",
+     "ordered": false
+    },
+    {
+     "id": 3,
+     "level": "Normal",
+     "ordered": false
+    }
+   ]
+  }
+ ]
+}
